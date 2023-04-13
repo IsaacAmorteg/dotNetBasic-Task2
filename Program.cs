@@ -23,5 +23,11 @@ class Program
             array[i] = array[array.Length - 1 - i];
             array[array.Length - 1 - i] = swap;
         }
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.Write(array[i] + " ");
+        }
+        Console.ReadKey();
     }
 }
